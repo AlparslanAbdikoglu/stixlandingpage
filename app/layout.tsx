@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "StixPix",
   description: "cool app for your pictures",
+  icons: {
+    icon:'/logo.svg'
+  }
 };
 
 export default function RootLayout({

@@ -14,7 +14,6 @@ const config: Config = {
       xl: '1440px',
     },
     extend: {
-      
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -22,6 +21,9 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    // Your plugins can be added here if needed
+  ],
 };
+
 export default config;

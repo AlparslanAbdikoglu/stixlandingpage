@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import React from "react";
 import BackToTopButton from "@/components/backtotopbutton";
 
@@ -21,23 +21,25 @@ const FaqItem = ({ question, answer }: FaqItemProps) => {
 
 const Page = () => {
   return (
-    <div className="container mx-auto p-4 md:p-8 lg:p-12">
+    <div>
       <main>
-        <div className="bg-white rounded-lg shadow-xl py-8 mt-12">
-          <h4 className="text-4xl font-bold text-gray-800 tracking-widest uppercase text-center">
-            FAQ
-          </h4>
-          <p className="text-center text-indigo-900 text-lg mt-2">
-            Here are some of the frequently asked questions
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 xl:gap-12 px-2 xl:px-12 mt-4">
-            {faqItems.map((item, index) => (
-              <FaqItem key={index} {...item} />
-            ))}
-            {/* Button */}
-          </div>
-          <div className="flex justify-center mt-8">
-            <BackToTopButton />
+        
+        <div className="p-8">
+          <div className="bg-white p-4 rounded-lg shadow-xl py-8 mt-12">
+            <h4 className="text-4xl font-bold text-gray-800 tracking-widest uppercase text-center">
+              FAQ
+            </h4>
+            <p className="text-center text-indigo-900 text-lg mt-2">
+              Here are some of the frequently asked questions
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 xl:gap-12 px-2 xl:px-12 mt-4">
+              {faqItems.map((item, index) => (
+                <FaqItem key={index} {...item} />
+              ))}
+            </div>
+            <div className="flex justify-end mt-8">
+              <BackToTopButton />
+            </div>
           </div>
         </div>
       </main>

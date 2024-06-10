@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next"; // Import the SpeedInsights component
 import "./globals.css";
 
 
@@ -21,6 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+      <SpeedInsights /> {/* Add the SpeedInsights component */}
         {children}
         </body>
     </html>

@@ -11,18 +11,6 @@ const Phone = () => {
       <div className="ml-8 flex items-center text-white text-lg font-semibold md:text-xl lg:text-2xl xl:text-3xl">
         StixPix can do:
       </div>
-      <div className="flex flex-col justify-center ml-7 md:ml-10 lg:ml-14 xl:ml-20">
-        <div className="text-lg font-medium text-emerald-500 mb-5 md:mb-7 lg:mb-10 xl:mb-12">
-          Edit your images with cool stickers
-        </div>
-        <div className="text-lg font-medium text-emerald-500 mb-5 md:mb-7 lg:mb-10 xl:mb-12">
-          Choose from 150K stickers!!
-        </div>
-        <div className="text-lg font-medium text-emerald-500 mb-5 md:mb-7 lg:mb-10 xl:mb-12">
-          #Sticker for every occasion
-        </div>
-        </div>
-        
     </section>
     
   );

@@ -9,9 +9,9 @@ const Phone = () => {
       <FloatingPhone />
       <div className="ml-8 flex items-center text-white text-lg font-semibold">StixPix can do: </div>
       <div className="flex flex-col justify-center ml-7">
-        <div className="text-lg font-medium text-emerald-500 mb-5">Edit your imagies with cool stickers</div>
+        <div className="text-lg font-medium text-emerald-500 mb-5">Edit your images with cool stickers</div>
         <div className="text-lg font-medium text-emerald-500 mb-5">Choose from 150K stickers!!</div>
-        <div className="text-lg font-medium text-emerald-500 mb-5">#Sticker for every ocasion</div>
+        <div className="text-lg font-medium text-emerald-500 mb-5">#Sticker for every occasion</div>
       </div>
 
       <div className="flex items-center ml-10">

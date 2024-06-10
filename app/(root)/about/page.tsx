@@ -16,7 +16,7 @@ const page = () => {
                 </div>
                 <div>
                     <h4 className="text-xl font-bold text-gray-700">1. How does the picture uploading process work?</h4>
-                    <p className="text-rose-600 my-2 text-lg">Our picture uploading process is simple and intuitive. You can easily upload your pictures directly from your device or cloud storage. Once uploaded, you'll have access to a variety of editing tools, including cropping, adding stickers, more.</p>
+                    <p className="text-rose-600 my-2 text-lg">Our picture uploading process is simple and intuitive. You can easily upload your pictures directly from your device. Once uploaded, you'll have access to a variety of editing tools, including cropping, adding stickers, more.</p>
                    
                 </div>
             </div>

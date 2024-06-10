@@ -31,3 +31,19 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Medium screen and up */
+@media (min-width: 768px) {
+  .container {
+     width: 50%;
+     padding: 40px;
+   }
+ }
+
+ /* Large screen and up */
+ @media (min-width: 976px) {
+  .container {
+     width: 30%;
+     padding: 60px;
+   }
+ }

@@ -22,9 +22,9 @@ const Phone = () => {
           #Sticker for every occasion
         </div>
         </div>
-
-      
+        
     </section>
+    
   );
 };
 

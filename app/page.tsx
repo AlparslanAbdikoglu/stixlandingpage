@@ -4,6 +4,8 @@ import Phone from "@/components/FloatingPhone";
 import BouncyCardsFeatures from "@/components/BouncyFancyCards";
 import Waitlist from "@/components/waitlist";
 import Footer from "@/components/footer";
+import storebutton from "@/components/storebuttons";
+import StoreButtons from "@/components/storebuttons";
 
 
 export default function HomePage() {
@@ -11,6 +13,7 @@ export default function HomePage() {
     <main>
       <SparklesPreview />
       <Phone />
+      <StoreButtons />
       <BouncyCardsFeatures />
       <Waitlist />
       <Footer />

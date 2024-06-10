@@ -4,6 +4,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next"; // Import the Speed
 import "./globals.css";
 
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {

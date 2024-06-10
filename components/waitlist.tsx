@@ -17,22 +17,22 @@ const Waitlist = () => {
           ready to make your photos pop with personality.
         </p>
         <div className="flex justify-center mt-8">
-          <iframe
-            src="https://embeds.beehiiv.com/9f17abb1-9f01-4518-9299-73013ef5e6d0?slim=true"
-            data-test-id="beehiiv-embed"
-            height="52"
-            frameBorder="0"
-            scrolling="no"
-            style={{
-              margin: '0',
-              borderRadius: '2px',
-              backgroundColor: 'transparent',
-              border: '2px solid #e5e7eb',
-              width: '100%', // Adjust width to fit the container
-              maxWidth: '480px', // Set a maximum width
-              boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', // Add a subtle shadow
-            }}
-          ></iframe>
+        <iframe
+  src="https://embeds.beehiiv.com/9f17abb1-9f01-4518-9299-73013ef5e6d0?slim=true"
+  data-test-id="beehiiv-embed"
+  height="52"
+  frameBorder="0"
+  scrolling="no"
+  style={{
+    margin: '0',
+    borderRadius: '2px',
+    backgroundColor: 'transparent',
+    border: '2px solid #e5e7eb',
+    width: '100%', // Adjust width to fit the container
+    maxWidth: '480px', // Set a maximum width
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', // Add a subtle shadow
+  }}
+></iframe>
         </div>
       </div>
     </div>
